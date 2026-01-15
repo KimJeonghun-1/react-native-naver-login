@@ -21,6 +21,7 @@ dist/
 
 # Xcode
 build/
+!plugin/build/
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -51,9 +52,9 @@ buck-out/
 \.buckd/
 *.keystore
 
-index.d.ts
-index.js
-index.js.flow
+/index.d.ts
+/index.js
+/index.js.flow
 
 
 
